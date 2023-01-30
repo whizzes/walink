@@ -1,0 +1,27 @@
+{
+  "name": "@whizzes/walink",
+  "version": "0.1.0",
+  "description": "WhatsApp Links Generation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --notEmit",
+    "coverage": "vitest run --coverage",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whizzes/walink.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whizzes/walink/issues"
+  },
+  "homepage": "https://github.com/whizzes/walink#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4",
+    "vitest": "^0.28.3"
+  }
+}
