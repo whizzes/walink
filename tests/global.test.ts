@@ -28,4 +28,9 @@ describe('whatsapp link maker', () => {
       new WhatsAppLinkMaker('thisisnotvalidphonenumber');
     }).toThrow();
   });
+  it('does not throws for valid phone numbers', async () => {
+    expect(() => {
+      new WhatsAppLinkMaker('+1098098098');
+    }).not.toThrow();
+  });
 });
