@@ -1,9 +1,17 @@
+import { makeWhatsAppLink } from "./utils";
+
 export class WhatsAppLinkMaker {
+    private phoneNumber: string;
+
     constructor(phoneNumber: string) {
-        throw new Error('Not Implemented');
+        if (phoneNumber.startsWith('+') && phoneNumber.split(' ').length === 1) {
+            this.phoneNumber = phoneNumber;
+            return;
+        }
+        throw new TypeError('The phone number must begin with "+" and must not contain spaces');
     }
 
     public make(message: string): string {
-        throw new Error('Not Implemented');
+        return makeWhatsAppLink(this.phoneNumber, message);
     }
 }
