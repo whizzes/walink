@@ -1,10 +1,10 @@
+import { makeWhatsAppLink } from "./utils";
+
 export class WhatsAppLinkMaker {
     private phoneNumber: string;
 
     constructor(phoneNumber: string) {
-
-        console.log(phoneNumber.startsWith('+') && !phoneNumber.split(' ').length)
-        if (phoneNumber.startsWith('+') && !phoneNumber.split(' ').length) {
+        if (phoneNumber.startsWith('+') && phoneNumber.split(' ').length === 1) {
             this.phoneNumber = phoneNumber;
             return;
         }
@@ -12,6 +12,6 @@ export class WhatsAppLinkMaker {
     }
 
     public make(message: string): string {
-        throw new Error('Not Implemented');
+        return makeWhatsAppLink(this.phoneNumber, message);
     }
 }
