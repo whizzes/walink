@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/whizzes/walink.git"
   },
-  "author": "",
+  "author": "Esteban Borai <estebanborai@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/whizzes/walink/issues"
