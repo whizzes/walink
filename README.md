@@ -1,7 +1,7 @@
 <div>
   <h1 align="center">walink</h1>
   <h4 align="center">
-    WhatsApp Link Utility Function
+    WhatsApp Links Generation Utilities
   </h4>
 </div>
 

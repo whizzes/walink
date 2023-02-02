@@ -1,3 +1,4 @@
+/* eslint-disable */
 import dts from 'rollup-plugin-dts';
 import esbuild from 'rollup-plugin-esbuild';
 
