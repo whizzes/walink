@@ -1,0 +1,7 @@
+.eslintignore
+.eslintrc
+.github
+.prettierrc
+rollup.config.js
+src
+tests/global.test.ts

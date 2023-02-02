@@ -1,6 +1,6 @@
 {
   "name": "@whizzes/walink",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "WhatsApp Links Generation",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
