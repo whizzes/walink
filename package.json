@@ -12,8 +12,8 @@
     "test": "vitest",
     "test:dev": "vitest watch",
     "lint": "rome format ./src && rome check ./src",
-		"format": "rome format --write ./src && rome check --apply ./src",
-		"format:unsafe": "rome format --write ./src && rome check --apply-unsafe ./src"
+    "format": "rome format --write ./src && rome check --apply ./src",
+    "format:unsafe": "rome format --write ./src && rome check --apply-unsafe ./src"
   },
   "repository": {
     "type": "git",
